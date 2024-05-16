@@ -1,7 +1,7 @@
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Hai Tran
+// Created on: May 2024
 // This file contains the JS functions for index.html
 
 "use strict"
@@ -16,8 +16,22 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert.
- */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+* this function find product of two number
+*/
+
+function calculteProductOfTwoNumber() {
+ // input
+ let firstNumber = parseFloat(document.getElementById("first-number").value)
+ let secondNumber = parseFloat(document.getElementById("second-number").value)
+ let productOfNumbers = 0
+ let counter = 0
+
+ // process
+ while (counter < secondNumber) {
+   productOfNumbers = productOfNumbers + firstNumber
+   counter++
+   // output
+   document.getElementById("result").innerHTML =
+     "The product of two number is " + productOfNumbers
+ }
 }
