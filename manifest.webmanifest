@@ -2,8 +2,8 @@
   "name": "Hai Tran's App",
   "short_name": "Hai Tran's App",
   "description": "Github Page for Hai Tran's App",
-  "scope": "/hai-tran-2/ICD2O-Unit-6-01-hai-tran-2/",
-  "start_url": "/hai-tran-2/ICD2O-Unit-6-01-hai-tran-2/",
+  "scope": "/hai-tran-2/ICS2O-PWA-Test/",
+  "start_url": "/hai-tran-2/ICS2O-PWA-Test/",
   "permissions": [ 
     "unlimitedStorage",
     "fullscreen"
